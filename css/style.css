@@ -1,0 +1,249 @@
+body{
+    background-color: #d8d8d8;
+}
+.header{
+    height: 300px;
+}
+.img-c{
+    height: 200px;
+    border-radius: 15px;
+    
+}
+nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo{
+    
+    width: 300px; 
+    display: block;
+    margin:auto;
+    
+}
+.menu{
+    display:flex;
+    justify-content: center;
+}
+.itens-menu{
+    display: inline-block;
+    background-color: black;
+
+
+}
+.itens-menu a{ 
+    padding:30px 50px;
+    background-color: #74C2F0;
+    font-family: Arial, Helvetica, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+
+}
+.itens-menu a:hover{
+    background-color: #1f9ee8;
+    color: white;
+
+}
+.texto-c{
+    width: 200px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px;
+    font-size: 15px;
+    border-radius:  15px;
+
+}
+.titulo-c{/*h1 do conteudo*/
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+.div-c{
+    width: 300px;
+    padding: 20px;
+    
+    
+}
+#c1,#c2,#c3{
+    width: 300px;
+   
+
+}
+#conteudo{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#texto{
+    background-color: #76042B;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    font-family: calibri,Arial, Helvetica, sans-serif;
+}
+.img-galeria{
+    width: 266px;
+    height: 200px;
+
+}
+#galeria{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    
+    justify-content: space-around;
+    margin-left: 0.30%;
+    display: flex;
+
+
+}
+#sobre{
+background-color: #4a031b;
+padding: 30px 350px;
+font-family: calibri;
+text-align: center;
+color: #fff;
+font-size: 20px;
+}
+#sobre h1{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 33px;
+}
+.btn-sobre{
+background-color: #CE1755;
+color: black;
+font-size: 20px;
+font-family: calibri;
+border: none;
+padding:10px 50px;
+border-radius: 10px;
+}
+.btn-sobre:hover{
+
+    cursor: pointer;
+
+}
+#fale_conosco{
+    padding: 30px 0;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+.contatoti{
+    font-size: 35px;
+    margin: 0px 0px 15px 0;
+    text-align: center;
+}
+#camposcontato{
+    font-family: calibri;
+    font-size: 20px;
+    padding: 10px 30px 10px 20px;
+    border: #4a031b 2px solid;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    height: 24px;
+    width: 448px;
+}
+#form textarea{
+    border: #4a031b 2px solid;
+    border-radius: 10px;
+    padding: 10px 0px 50px 20px;
+    font-family: calibri;
+    font-size: 20px;
+    resize: none;
+    height: 38px;
+    width: 478px;
+}
+#enviar{
+    width: 100%;
+    padding: 10px 30px 10px 20px;
+    background: #4a031b;
+    color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: calibri;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: none;
+
+
+}
+#mapa{
+    width: 502px;
+    height: 349px;
+}
+.rodape-total{
+    background: #1f1b1a;
+    color: #FFF
+}
+
+.rodape {
+    font-size: 20px;
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.rodape > div {
+    margin: 30px 0px;
+}
+#logorodape{
+    width: 150px;
+    height: 150px;
+}
+.redes-rodape{
+    display: flex;
+
+}
+.item-facebook, .item-instagram{
+    margin-right: 5px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+  #slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+
+
+
